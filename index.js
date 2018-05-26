@@ -17,6 +17,7 @@ exports.decorateConfig = (config) => {
     cursorColor: 'yellow',
     css: `
       ${config.css || ''}
+      
       // 吹き出しを揺らすアニメーション (https://q-az.net/buruburu-hurueru-css/)
         @keyframes shakeshake {
             0% {transform: translate(0px, 0px) rotateZ(0deg)}
